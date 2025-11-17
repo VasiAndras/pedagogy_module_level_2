@@ -1,0 +1,53 @@
+{
+  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
+  "intezmeny_telefon": "+36 1 234 5678",
+  "intezmeny_azonosito": "KL-2025-871",
+  "tanar_neve": "Veress Éva",
+  "megfigyelo": "Vasi András",
+  "osztaly_idopont": "12. osztály - 2025.12.15.",
+
+  "kapcsolodas": "Az óra az előző ismeretekre (FOR ciklus pszeudokodban és C++-ban) épít, és bevezeti a feltételes ciklusok (WHILE, DO-WHILE) fogalmát, valamint az előltesztelő és hátultesztelő ciklusok elvi különbségeit. Ez kiegészíti a diákok ciklusismeretét, és lehetővé teszi számukra, hogy megfelelő ciklustípust válasszanak különböző programozási helyzetekben. Kapcsolódik a későbbi algoritmusok témaköréhez és a programozási problémák hatékony megoldásához.",
+
+  "elteres": "A tananyag a tankönyvnél átfogóbb és gyakorlatiasabb megközelítést kínál. Míg a tankönyv elvontan mutatja be a ciklustípusokat, addig a tanár valós életből vett analógiákkal (pl. 'amíg esik az eső, addig bent maradunk' vs. 'először kimész, majd megnézed, esik-e') szemlélteti a különbségeket. Részletesebben foglalkozik az alkalmazási területekkel és a gyakori hibák forrásaival, mint a tankönyv.",
+
+  "motivacio": "A tanár egy interaktív játékkal indította az órát: két diák egymás ellen versenyzett egy feladatban - az egyik csak akkor kapott pontot, ha előre megmondta a választ (előltesztelő), a másik mindenképp kapott egy próbálkozást (hátultesztelő). Ez vezetett el a WHILE és DO-WHILE ciklusok közötti alapvető különbség megértéséhez. Egy rövid animáció vizuálisan szemléltette a két ciklustípus működését.",
+
+  "celkozles": "Igen, a tanár világosan meghatározta az óra célját: 'Ma megismerjük a feltételes ciklusok (WHILE, DO-WHILE) alapvető működését és alkalmazási területeit. Megértjük az előltesztelő és hátultesztelő ciklusok közötti különbségeket, és megtanuljuk, mikor melyiket érdemes alkalmazni. Gyakoroljuk ezek pszeudokodos megvalósítását.'",
+
+  "osszefoglalas": "Az óra végén a tanár egy 'ciklus választó' feladattal zárt, ahol a diákok csoportokban döntötték el, melyik ciklustípust alkalmaznák különböző programozási helyzetekben. Ezután készítettek egy összehasonlító táblázatot a három fő ciklustípusról (FOR, WHILE, DO-WHILE). Végül egy gyors szóbeli visszajelzés következett a legfontosabb tanultakról.",
+
+  "logikai_menet": "Az óra szerkezete kiválóan megfelelt a tanulók életkori sajátosságainak. Az egyszerű fogalmak bevezetésétől a komplexebb alkalmazási helyzetekig haladtak. Minden új koncepciót konkrét példákkal és analógiákkal illusztráltak. A 11. évfolyamos diákok számára megfelelő volt az elméleti mélység és a gyakorlati alkalmazás aránya.",
+
+  "anyag_elvegzese": "Igen, a tervezett tananyag teljes egészében megtörtént. A diákok megértették a WHILE és DO-WHILE ciklusok működését, az előltesztelő és hátultesztelő ciklusok közötti különbségeket, és képesek voltak dönteni a megfelelő ciklustípus választásában.",
+
+  "munkaformak": "Frontális munka (30%), csoportmunka (40%), egyéni gyakorlás (30%). A tanár jól arányozta a különböző munkaformákat, kiemelt szerepet adva a csoportos megbeszéléseknek és a gyakorlati alkalmazásnak.",
+
+  "modszerek": "Analógia alkalmazása, problémamegoldó módszer, esettanulmány, vizuális szemléltetés, összehasonlító elemzés. Különösen hatékony volt a valós életből vett analógiák használata az elvont programozási fogalmak megértéséhez.",
+
+  "fegyelmezes": "Nem volt komoly fegyelmezetlenség. Egy diák passzivitása esetén a tanár aktívan bevonta őt a csoportmunkába, ahol könnyebb feladatot kapott, és sikerélményt tudott szerezni.",
+
+  "tanar_vezetesi_stilus": "A tanár demokratikus és inspiráló stílust alkalmazott. Jól érvényesült pedagógiai szerepe, miközben lehetőséget adott a diákok saját felfedezéseire. Az óravezetés stílusa egyértelmű és diákbarát volt.",
+
+  "tanar_diak_kapcsolat": "Meleg, támogató és kölcsönösen tiszteletre épülő kapcsolat. A tanárnak természetes tekintélye van, a diákok bizalommal mernek kérdezni és véleményt nyilvánítani.",
+
+  "konfliktuskezeles": "A kevés konfliktushelyzetet proaktívan és konstruktívan kezelte. A nehézségekkel küzdő diákoknak extra figyelmet és támogatást nyújtott, mindenkit megtartva a tanulási folyamatban.",
+
+  "szakmai_felkeszultseg": "Kiváló szakmai felkészültség, részletes ismeretekkel a ciklusok elméleti hátteréről. Módszertani felkészültsége kiemelkedő, jól alkalmazza az analógiákat és vizuális eszközöket a komplex fogalmak megértéséhez.",
+
+  "tanulok_viselkedese": "A tanulók aktívak, érdeklődők és együttműködőek voltak. Jól részt vettek a csoportmunkában, és élvezték a valós életből vett példákat. Láthatóan értékelték a logikai feladatokat.",
+
+  "szereples_jellemzoi": "Bátran vettek részt a megbeszélésekben, jól alkalmazták az analógiákat, és logikusan érveltek a ciklustípusok választása mellett. A csoportmunkában együttműködőek voltak és segítettek egymásnak.",
+
+  "ora_hangulata": "Kellemes, biztonságos és inspiráló légkör uralkodott. A diákok nyugodtan kérdezhettek, és élvezték a valós életből vett példákat. Pozitív és produktív munkahelyzet jellemezte az órát.",
+
+  "tanar_osztaly_viszony": "Kiváló együttműködés és kölcsönös tisztelet. A tanár támogatja a diákokat a nehéz fogalmak megértésében, akik viszont aktívan reagálnak a feladatokra.",
+
+  "aktivitas_fegyelmezetseg": "Magas szintű aktivitás és kiváló fegyelmezettség. A diákok önkéntelenül és szorgalmasan vettek részt a tevékenységekben, és komolyan vették a logikai feladatokat.",
+
+  "mi_tetszett": "Különösen tetszett a valós életből vett analógiák kreatív használata, a interaktív játék az óra elején, valamint a 'ciklus választó' feladat a végén. A vizuális szemléltetés nagyon hatékony volt a két ciklustípus közötti különbség megértéséhez.",
+
+  "mit_csinaltal_volna_maskepp": "Talán bevezetnék egy rövid, gyakorlati kódpéldát mindkét ciklustípushoz, hogy a diákok konkrétabban lássák a különbségeket. Ezenkívül egy interaktív digitális szavazórendszerrel ellenőrizném a fogalmak megértését az óra közepén.",
+
+  "ora_eredmenyessege": "Az óra nagyon eredményes volt. A diákok az óra végére jól megkülönböztették a WHILE és DO-WHILE ciklusokat, megértették az előltesztelő és hátultesztelő ciklusok közötti különbségeket, és képesek voltak dönteni arról, melyik ciklustípust melyik feladattípusnál érdemes alkalmazni. A célkitűzések teljesültek, és a diákok magabiztosan alkalmazták az újonnan szerzett ismereteket."
+}

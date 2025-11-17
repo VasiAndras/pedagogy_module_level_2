@@ -1,0 +1,78 @@
+{
+  "title": "Óralátogatási lap",
+
+  "fields": [
+    { "id": "intezmeny", "label": "Intézmény neve:" },
+    { "id": "tanar_neve", "label": "Tanár neve:" },
+    { "id": "megfigyelo", "label": "Megfigyelő neve:" },
+    { "id": "osztaly_idopont", "label": "Osztály / időpont:" }
+  ],
+
+  "sections": [
+    {
+      "title": "1. A tanítási óra célkitűzései, tartalma",
+      "questions": [
+        {
+          "id": "kapcsolodas",
+          "text": "A feldolgozott órai tananyag hogyan kapcsolódik az előző és a későbbi órák ismeretanyagához, illetve más tantárgyakhoz?",
+          "lines": 3
+        },
+        {
+          "id": "elteres",
+          "text": "A tananyagtartalom eltér-e a tankönyvtől (mélységében, aktualitásában, szervezettségében)?",
+          "lines": 3
+        }
+      ]
+    },
+
+    {
+      "title": "2. A tanítási óra belső formája, szerkezete",
+      "questions": [
+        { "id": "motivacio", "text": "Hogyan történt a motiváció?", "lines": 2 },
+        { "id": "celkozles", "text": "Közölte-e a tanár az óra célját? Hogyan?", "lines": 2 },
+        { "id": "osszefoglalas", "text": "Az óra végi összefoglalás megtörtént-e? Hogyan?", "lines": 2 },
+        { "id": "logikai_menet", "text": "Az óra logikai menete mennyire felelt meg a tananyag szintjének és a tanulók életkori sajátosságainak?", "lines": 3 },
+        { "id": "anyag_elvegzese", "text": "Megtörtént-e a kijelölt tananyag elvégzése?", "lines": 2 }
+      ]
+    },
+
+    {
+      "title": "3. A külső formák, módszerek, eszközök",
+      "questions": [
+        { "id": "munkaformak", "text": "Milyen munkaformákat alkalmazott a tanár és azok aránya?", "lines": 3 },
+        { "id": "modszerek", "text": "Milyen oktatási módszereket alkalmazott és mennyire volt változatos?", "lines": 3 },
+        { "id": "fegyelmezes", "text": "Volt-e fegyelmezési probléma? Hogyan oldotta meg?", "lines": 3 }
+      ]
+    },
+
+    {
+      "title": "4. A tanár egyénisége, magatartása",
+      "questions": [
+        { "id": "tanar_vezetesi_stilus", "text": "Hogyan érvényesült a tanár pedagógiai irányító szerepe? Milyen volt az óravezetés stílusa?", "lines": 3 },
+        { "id": "tanar_diak_kapcsolat", "text": "Milyen volt a tanár viszonya a tanulókhoz? Van-e tekintélye?", "lines": 3 },
+        { "id": "konfliktuskezeles", "text": "Hogyan kezelte a konfliktushelyzeteket?", "lines": 3 },
+        { "id": "szakmai_felkeszultseg", "text": "Rendelkezik-e a tantárgy tanításához szükséges készségekkel és módszertani felkészültséggel?", "lines": 3 }
+      ]
+    },
+
+    {
+      "title": "5. A tanulók viselkedése, magatartása",
+      "questions": [
+        { "id": "tanulok_viselkedese", "text": "Mi jellemezte a tanulók magatartását különböző szituációkban?", "lines": 3 },
+        { "id": "szereples_jellemzoi", "text": "Hogyan viselkedtek órai szereplésük során?", "lines": 3 }
+      ]
+    },
+
+    {
+      "title": "6. Általános kép az óráról és az osztályról",
+      "questions": [
+        { "id": "ora_hangulata", "text": "Milyen volt az óra hangulata, pszichés légköre?", "lines": 2 },
+        { "id": "tanar_osztaly_viszony", "text": "Mi jellemzi a tanár–osztály viszonyát?", "lines": 2 },
+        { "id": "aktivitas_fegyelmezetseg", "text": "Milyen volt a fegyelmezettség és aktivitás?", "lines": 2 },
+        { "id": "mi_tetszett", "text": "Mi tetszett a legjobban az órán?", "lines": 2 },
+        { "id": "mit_csinaltal_volna_maskepp", "text": "Tanárként mit csináltál volna másképp?", "lines": 2 },
+        { "id": "ora_eredmenyessege", "text": "Hogyan ítélhető meg az óra eredményessége?", "lines": 2 }
+      ]
+    }
+  ]
+}

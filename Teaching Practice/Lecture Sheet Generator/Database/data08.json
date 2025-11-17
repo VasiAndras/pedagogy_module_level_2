@@ -1,0 +1,53 @@
+{
+  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
+  "intezmeny_telefon": "+36 1 234 5678",
+  "intezmeny_azonosito": "KL-2025-871",
+  "tanar_neve": "Veress Éva",
+  "megfigyelo": "Vasi András",
+  "osztaly_idopont": "12. osztály - 2026.01.12.",
+
+  "kapcsolodas": "Az óra az előző óra WHILE ciklus ismereteire épít, és bemutatja a DO-WHILE ciklus C++ nyelvi megvalósítását. A diákok már jól ismerik az előltesztelő ciklusok működését, most a hátultesztelő ciklusok gyakorlati alkalmazását sajátítják el. Ez kiegészíti a diákok ciklusismeretét, és lehetővé teszi számukra, hogy megfelelő ciklustípust válasszanak olyan helyzetekben, ahol a ciklustest legalább egyszer mindenképp végre kell hajtani. Kapcsolódik a felhasználói interfész programozásához és az input validációhoz.",
+
+  "elteres": "A tananyag a tankönyvnél részletesebben foglalkozik a DO-WHILE ciklus egyedi alkalmazási területeivel és a gyakorlati használatának részleteivel. Míg a tankönyv csak az alap szintaxist mutatja be, addig a tanár hangsúlyt fektet arra, hogy mikor érdemes DO-WHILE ciklust használni WHILE helyett, és milyen gyakori hibák fordulhatnak elő a használata során. Gyakorlati példákkal gazdagítja az anyagot, különösen a menüvezérelt programok és input validációs feladatok területén.",
+
+  "motivacio": "A tanár egy interaktív 'pénztárgép szimulátorral' indította az órát, ahol a diákoknak termékeket kellett bevinniük, és a program DO-WHILE ciklussal kérdezte meg, hogy szeretnének-e még terméket hozzáadni. A 'szeretne még vásárolni? (i/n)' kérdés többszöri megjelenése tökéletesen szemléltette a DO-WHILE ciklus alkalmazási lehetőségét. Ezután megkérdezte: 'Mi lenne a különbség, ha ezt WHILE ciklussal írnánk meg?'",
+
+  "celkozles": "Igen, a tanár világosan meghatározta az óra célját: 'Ma elsajátítjuk a DO-WHILE ciklus C++ nyelven való írását, megértjük a WHILE és DO-WHILE ciklusok közötti alapvető különbségeket, és gyakoroljuk a DO-WHILE ciklus alkalmazását olyan helyzetekben, ahol a ciklustest legalább egyszer mindenképp végre kell hajtani. Különös hangsúlyt fektetünk a menüvezérelt programok és input validáció területére.'",
+
+  "osszefoglalas": "Az óra végén a tanár egy 'ciklus átalakító' feladattal zárt, ahol a diákok csoportokban kellett átírniuk WHILE ciklusokat DO-WHILE ciklusokká és fordítva, majd megbeszélniük, melyik változat optimálisabb az adott feladathoz. Ezután készítettek egy összefoglaló táblázatot a két ciklustípus összehasonlításáról. Végül egy gyors szóbeli visszajelzés következett a legfontosabb tanultakról.",
+
+  "logikai_menet": "Az óra szerkezete kiválóan megfelelt a tanulók szintjének. A DO-WHILE ciklus alap szintaxisától az összetettebb, beágyazott feladatokig haladtak. Minden új koncepciót azonnal gyakoroltak kódolással, és a fordító azonnali visszajelzést adott. A 11. évfolyamos diákok számára megfelelő volt a kihívás és a gyakorlati alkalmazás mértéke.",
+
+  "anyag_elvegzese": "Igen, a tervezett tananyag teljes egészében megtörtént. A diákok megértették a DO-WHILE ciklus szintaxisát C++-ban, gyakorolták a különböző alkalmazási területeket, és elsajátították a WHILE és DO-WHILE ciklusok közötti különbségeket.",
+
+  "munkaformak": "Frontális demonstráció (35%), egyéni kódolás (40%), páros programozás (25%). A tanár kiemelt hangsúlyt helyezett a gyakorlati kódolásra, különösen a menüvezérelt programok fejlesztésére.",
+
+  "modszerek": "Gyakorlati demonstráció, problémamegoldó módszer, pair programming, kódáttekintés, esettanulmány elemzés. Különösen hatékony volt a 'compare and contrast' módszer, ahol a diákok párhuzamosan írták meg ugyanazt a feladatot WHILE és DO-WHILE ciklusokkal.",
+
+  "fegyelmezes": "Egy diák nehézségei voltak a szintaxis megjegyzésével, különösen a pontosvessző elhelyezésével a while feltétel után. A tanár türelmesen ismételte meg a szabályt, majd egy emlékeztetőt helyezett el a táblán a teljes osztály számára.",
+
+  "tanar_vezetesi_stilus": "A tanár részletesen magyarázó, de gyakorlatias stílust alkalmazott. Jól érvényesült pedagógiai szerepe, miközben lehetőséget adott a diákok önálló felfedezésére. Az óravezetés stílusa egyértelmű és diákbarát volt.",
+
+  "tanar_diak_kapcsolat": "Kölcsönösen tiszteletre épülő, támogató kapcsolat. A tanárnak természetes tekintélye van, a diákok nyugodtan kérdeznek a szintaxis részleteiről és gyakorlati alkalmazásról.",
+
+  "konfliktuskezeles": "A szintaxisbeli nehézségeket türelmesen és konstruktívan kezelte. Extra gyakorlati feladatokat adott az érintett diákoknak, és személyes figyelmet fordított rájuk a munka során.",
+
+  "szakmai_felkeszultseg": "Kiváló C++ ismeretekkel rendelkezik, részletesen ismeri a különböző ciklustípusok finomságait. Módszertani felkészültsége kiemelkedő, jól alkalmazza a összehasonlító tanítási módszereket.",
+
+  "tanulok_viselkedese": "A tanulók nagyon aktívak és érdeklődők voltak. Láthatóan élvezték a két ciklustípus összehasonlítását és a 'melyik a jobb' vitákat. Jól együttműködtek a pair programming feladatokban.",
+
+  "szereples_jellemzoi": "Önállóan elemzették a különböző ciklustípusok előnyeit és hátrányait, bátran véleményeztek a megoldásokról, és segítettek egymásnak a szintaxis megjegyzésében. A csoportos megbeszélések során jól érveltek.",
+
+  "ora_hangulata": "Élénk, vitatkozó és produktív légkör uralkodott. A diákok élvezték a ciklustípusok összehasonlítását, és lelkesen védték az általuk preferált megoldásokat. Biztonságos környezetben érezték magukat a véleményük kinyilvánításához.",
+
+  "tanar_osztaly_viszony": "Kiváló együttműködés és kölcsönös tisztelet. A tanár moderálta a vitákat, a diákok pedig tisztelettel hallgatták egymás véleményét.",
+
+  "aktivitas_fegyelmezetseg": "Magas szintű aktivitás és kiváló fegyelmezettség. A diákok élénken részt vettek a megbeszélésekben, és komolyan vették a kódolási feladatokat.",
+
+  "mi_tetszett": "Különösen tetszett a pénztárgép szimulátor használata a motivációhoz, a 'compare and contrast' módszer alkalmazása, valamint a 'ciklus átalakító' feladat a óra végén. A diákok közötti termékeny viták a ciklustípusok előnyeiről nagyon hasznosak voltak.",
+
+  "mit_csinaltal_volna_maskepp": "Talán bevezetnék egy rövid, előre elkészített ellenőrző listát a DO-WHILE ciklus leggyakrabban előforduló hibáiról. Ezenkívül több időt szánnék a gyakorlati input validációs példákra, mivel ez egy nagyon gyakori alkalmazási terület.",
+
+  "ora_eredmenyessege": "Az óra kiválóan eredményes volt. A diákok az óra végére képesek voltak önállóan megírni DO-WHILE ciklusokat C++ nyelven, megértették a WHILE és DO-WHILE ciklusok közötti alapvető különbségeket, és képesek voltak dönteni arról, melyik ciklustípust melyik feladattípusnál érdemes alkalmazni. A gyakorlati alkalmazás kiválóan sikerült, és a diákok magabiztosan használták mindkét ciklustípust."
+}

@@ -1,0 +1,53 @@
+{
+  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
+  "intezmeny_telefon": "+36 1 234 5678",
+  "intezmeny_azonosito": "KL-2025-871",
+  "tanar_neve": "Veress Éva",
+  "megfigyelo": "Vasi András",
+  "osztaly_idopont": "12. osztály - 2026.01.26.",
+
+  "kapcsolodas": "Az óra az előző órák összes ciklustípusának (FOR, WHILE, DO-WHILE) elméleti összehasonlítására épít, és ezek gyakorlati alkalmazását valósítja meg egy komplex programozási feladaton keresztül. A feladat a 'Játékbolt készletnyilvántartó rendszer' fejlesztése, amely integrálja a különböző ciklustípusok használatát valósághű környezetben. Ez közvetlenül kapcsolódik a későbbi adatszerkezetek (tömbök) és fájlkezelés témaköréhez.",
+
+  "elteres": "A tananyag a tankönyvnél valósághűbb és komplexebb feladatot kínál. Míg a tankönyv elszigetelt példákat mutat, addig a tanár egy integrált rendszert fejleszt a diákokkal, amely több ciklustípust is alkalmaz. A feladat gyakorlati problémamegoldást igényel, és a diákoknak dönteniük kell, melyik ciklustípust melyik részfeladathoz alkalmazzák.",
+
+  "motivacio": "A tanár egy rövid bemutatóval indította az órát, ahol mutatott egy működő játékbolt készletnyilvántartó programot, amely képes volt: játékok listázására, készlet információ megjelenítésére, új játékok hozzáadására és eladások rögzítésére. Ezután kihívás elé állította a diákokat: 'Ma ti is készítetek egy ilyen rendszert, ahol mindhárom ciklustípust alkalmazni kell!'",
+
+  "celkozles": "Igen, a tanár világosan meghatározta az óra célját: 'Ma egy komplex programozási feladatot oldunk meg - egy játékbolt készletnyilvántartó rendszert fejlesztünk C++ nyelven. A feladat során alkalmazzuk mindhárom ciklustípust (FOR, WHILE, DO-WHILE) a megfelelő helyzetekben, és gyakoroljuk a helyes ciklustípus választását. A programnak képesnek kell lennie: játékok listázására, készlet információ megjelenítésére, és menüvezérlésre.'",
+
+  "osszefoglalas": "Az óra végén a tanár egy 'kódmegbeszélő' sessiont tartott, ahol néhány diák bemutatta megoldását, és közösen elemezték, hogy melyik ciklustípust miért választották az egyes részfeladatokhoz. Ezután összefoglalták a legjobb gyakorlatokat, és megbeszélték, milyen alternatív megoldások léteznek. Végül egy gyors önértékelést végeztek a saját megoldásukról.",
+
+  "logikai_menet": "Az óra szerkezete kiválóan megfelelt a tanulók szintjének. A feladatot részfeladatokra bontották: 1. Főmenü implementálása (DO-WHILE), 2. Játékok listázása (FOR), 3. Készlet információ megjelenítése (WHILE). Minden részfeladatot először együtt terveztek meg, majd a diákok önállóan vagy párosan implementálták. A 11. évfolyamos diákok számára megfelelő volt a feladat komplexitása.",
+
+  "anyag_elvegzese": "Igen, a tervezett feladat teljes egészében megoldásra került. A diákok sikeresen implementálták a játékbolt készletnyilvántartó rendszert, és mindhárom ciklustípust alkalmazták a megfelelő helyzetekben.",
+
+  "munkaformak": "Projektalapú munka (60%), páros programozás (30%), frontális útmutatás (10%). A tanár minimális frontális beavatkozással, maximális önálló munkavégzéssel szervezte az órát.",
+
+  "modszerek": "Projektalapú tanulás, problémamegoldó módszer, pair programming, kódáttekintés, peer-to-peer oktatás. Különösen hatékony volt a 'test-driven' megközelítés, ahol a tanár előre megadott tesztesetekkel ellenőrizte a programok helyes működését.",
+
+  "fegyelmezes": "Két diák nehézségei voltak a program logikai szerkezetének megtervezésével. A tanár személyesen segített nekik egy döntési fával és pszeudokoddal, ami után önállóan tudták folytatni a munkát.",
+
+  "tanar_vezetesi_stilus": "A tanár coach szerepben viselkedett, minimálisan beavatkozva, maximális önállóságot biztosítva. Jól érvényesült facilitátori szerepe, a diákok önállóan oldották meg a problémákat. Az óravezetés stílusa támogató és bizalomgerjesztő volt.",
+
+  "tanar_diak_kapcsolat": "Partneri kapcsolat a tanulási folyamatban. A tanár technikai mentor, a diákok pedig aktív fejlesztők. A diákok bizalommal fordulnak technikai kérdésekkel.",
+
+  "konfliktuskezeles": "A technikai nehézségeket gyorsan és hatékonyan kezelte, a problémák forrásáig visszavezetve a megoldást. Minden diák számára biztosította a segítséget anélkül, hogy megoldotta volna helyettük a feladatot.",
+
+  "szakmai_felkeszultseg": "Kiváló C++ ismeretekkel rendelkezik, profi módon alkalmazza a projektalapú tanulási módszert. Módszertani felkészültsége kiemelkedő, jól tervez komplex programozási feladatokat.",
+
+  "tanulok_viselkedese": "A tanulók nagyon motiváltak és elkötelezettek voltak. Láthatóan élvezték a valósághű programozási feladatot, és büszkék voltak a saját megoldásaikra. Intenzíven koncentráltak a problémamegoldásra.",
+
+  "szereples_jellemzoi": "Önállóan tervezték meg a program szerkezetét, hatékonyan debugolták a saját kódjaikat, és segítettek egymásnak logikai problémák megoldásában. A páros munkában jól kooperáltak.",
+
+  "ora_hangulata": "Intenzív, kreatív és produktív légkör uralkodott. A diákok elmélyülten dolgoztak, és látható örömmel fogadták, amikor a programjuk helyesen működött. Pozitív rivalizálás figyelhető meg a csoportok között.",
+
+  "tanar_osztaly_viszony": "Kiváló együttműködés és kölcsönös tisztelet. A tanár technikai támogatást nyújt, a diákok pedig aktívan dolgoznak és önállóan oldják meg a problémákat.",
+
+  "aktivitas_fegyelmezetseg": "Kiemelkedő aktivitás és kiváló fegyelmezettség. A diákok önkéntelenül és szorgalmasan dolgoztak, és komolyan vették a programozási kihívást.",
+
+  "mi_tetszett": "Különösen tetszett a valósághű, komplex programozási feladat, a diákok önálló problémamegoldása, valamint a kódmegbeszélő session a óra végén. A 'test-driven' megközelítés nagyon hatékony volt a programok helyes működésének ellenőrzéséhez.",
+
+  "mit_csinaltal_volna_maskepp": "Talán bevezetnék egy rövid, közös tervezési fázist az óra elején, ahol az egész osztály együtt tervezné meg a program alapvető szerkezetét. Ezenkívül előre elkészítettem volna egy ellenőrző listát a részfeladatokról, hogy a diákok könnyebben követni tudják a haladásukat.",
+
+  "ora_eredmenyessege": "Az óra kiválóan eredményes volt. A diákok az óra végére sikeresen implementálták a játékbolt készletnyilvántartó rendszert, helyesen alkalmazták mindhárom ciklustípust a megfelelő helyzetekben, és megértették a gyakorlati alkalmazás különbségeit. A komplex programozási feladat sikeres megoldása nagy önbizalmat adott a diákoknak, és demonstrálta a ciklusok gyakorlati hasznosságát."
+}

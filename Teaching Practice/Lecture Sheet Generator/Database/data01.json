@@ -1,0 +1,53 @@
+{
+  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
+  "intezmeny_telefon": "+36 1 234 5678",
+  "intezmeny_azonosito": "KL-2025-871",
+  "tanar_neve": "Veress Éva",
+  "megfigyelo": "Vasi András",
+  "osztaly_idopont": "12. osztály - 2025.11.10.",
+
+  "kapcsolodas": "Az óra az IF utasítás alapvető ismeretére épít, amelyet az előző órán tanultak meg. A pszeudokodban való feltételes elágazás a programozási alapok tantárgy következő témaköreinek (ciklusok, függvények) megértéséhez szükséges alapvető ismeret. Kapcsolódik a matematika tantárgy logikai kifejezéseihez és a digitális kultúra tantárgy algoritmikus gondolkodásához.",
+  
+  "elteres": "A tananyag mélységében túlmutat a tankönyv tartalmán, gyakorlati példákkal és valós életből vett problémákkal egészíti ki az anyagot. A tankönyv elméleti megközelítésével szemben a tanár gyakorlati alkalmazásokra helyezi a hangsúlyt, és strukturáltabban, lépésről lépésre mutatja be az IF utasítás használatát pszeudokodban.",
+
+  "motivacio": "A tanár egy rövid, mindennapi helyzettel indította az órát ('Mi történik, ha esik az eső?'), majd ezt összekötötte a programozás világával. Interaktív brainstormingot alkalmazott, ahol a diákok saját példákat hozhattak fel feltételes helyzetekre.",
+  
+  "celkozles": "Igen, a tanár világosan és érthetően közölte az óra célját a táblára írva: 'Ma megtanuljuk, hogyan írhatunk döntéseket a programjainkba pszeudokod nyelven az IF utasítás segítségével.'",
+  
+  "osszefoglalas": "Az óra végén a tanár röviden összefoglalta a legfontosabb szabályokat, majd csoportmunkában a diákok saját szavaikkal írtak le egy IF szerkezetet. Végül egy gyors szóbeli kvíz következett a kulcsszavakról.",
+  
+  "logikai_menet": "Az óra szerkezete kiválóan megfelelt a tanulók életkori sajátosságainak. Az egyszerűből a bonyolultabb felé haladt, konkrét példákkal illusztrálva az elméleti anyagot. A 11. évfolyamos diákok számára megfelelő volt a kihívás és az elvárások szintje.",
+  
+  "anyag_elvegzese": "Igen, a tervezett tananyag teljes egészében megtörtént. Sőt, a tanár a tervezettnél egy extra gyakorlati feladattal egészítette ki az órát, mivel a diákok gyorsabban haladtak a vártnál.",
+
+  "munkaformak": "Frontális munka (30%), csoportmunka (40%), egyéni munka (30%). A tanár kiegyensúlyozottan váltogatta a különböző munkaformákat, megfelelő arányban.",
+  
+  "modszerek": "Bemutató módszer, problémamegoldó módszer, szövegelemzés, gyakorlati alkalmazás. Változatos módszertani megközelítést alkalmazott: előadás, brainstorming, pair programming, önálló gyakorlás.",
+  
+  "fegyelmezes": "Nem volt komoly fegyelmezetlenség. Egy diák figyelmetlensége esetén a tanár udvariasan, de határozottan szólt, majd személyes megkereséssel biztosította a diák részvételét a csoportmunkában.",
+
+  "tanar_vezetesi_stilus": "A tanár demokratikus vezetési stílust alkalmazott, egyértelműen érvényesült pedagógiai irányító szerepe. Az óravezetés stílusa strukturált, de rugalmas volt, lehetőséget adva a diákok ötleteire és kérdéseire.",
+  
+  "tanar_diak_kapcsolat": "Meleg, támogató kapcsolat figyelhető meg. A tanárnak tekintélye van, de nem tekintetélyelvű. A diákok nyugodtan mertek kérdezni és véleményt nyilvánítani.",
+  
+  "konfliktuskezeles": "A kevés konfliktushelyzetet proaktívan, nyugodt környezetben kezelte, a problémát azonnal megoldotta anélkül, hogy feleslegesen felnagyította volna.",
+  
+  "szakmai_felkeszultseg": "Kiváló szakmai felkészültség, mély tantárgyi tudás és kifinomott módszertani ismeretek birtokában van. Jól alkalmazza a digitális eszközöket a tanítás során.",
+
+  "tanulok_viselkedese": "A tanulók aktívak, érdeklődők és együttműködőek voltak. A csoportmunkában jól kooperáltak, az egyéni munkában koncentráltan dolgoztak.",
+  
+  "szereples_jellemzoi": "Önbizalommal vettek részt a megbeszélésekben, logikusan fogalmaztak, és bátran mutatták be csoportjuk munkáját. A hibákat konstruktíven kezelték.",
+
+  "ora_hangulata": "Kellemes, biztonságos és inspiráló légkör uralkodott. A diákok nyugodtan kérdezhettek, a hibázást nem büntették, hanem tanulási lehetőségként kezelték.",
+  
+  "tanar_osztaly_viszony": "Kölcsönösen tiszteletre épülő, bizalmi kapcsolat. A tanár támogató, a diákok elkötelezettek és respektálják a tanárt.",
+  
+  "aktivitas_fegyelmezetseg": "Magas szintű aktivitás és kiváló fegyelmezettség jellemezte az órát. A diákok önkéntelenül és szorgalmasan vettek részt a tevékenységekben.",
+  
+  "mi_tetszett": "Különösen tetszett a tanár kreatív megközelítése a témához, a valós életből vett példák használata, valamint a diákok önálló munkáját előtérbe helyező módszertan.",
+  
+  "mit_csinaltal_volna_maskepp": "Talán több differenciált feladatot adnék a gyorsabban haladó diákoknak, hogy még jobban kihasználhassák a képességeiket. Ezenkívül egy rövid digitális szavazórendszerrel ellenőrizhetném az összes diák megértését.",
+  
+  "ora_eredmenyessege": "Az óra kiválóan eredményes volt. A diákok a óra végére képesek voltak önállóan megírni egyszerű IF szerkezeteket pszeudokodban, és megértették az alkalmazási lehetőségeket. A célkitűzések teljesültek, a tanulási folyamat aktív és tartalmas volt."
+}
