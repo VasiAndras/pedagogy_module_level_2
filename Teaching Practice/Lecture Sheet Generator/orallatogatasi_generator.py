@@ -163,15 +163,22 @@ def generate_single_pdf(data_file, template):
     # táblázat készítése
     table = Table(table_data, colWidths=[60 * mm, 100 * mm])
 
-    # táblázat stílus
+        # táblázat stílus – teljes keretezés
     table.setStyle(TableStyle([
         ("FONT", (0, 0), (-1, -1), FONT, 12),
+
+        # külső keret
+        ("BOX", (0, 0), (-1, -1), 1.2, colors.black),
+
+        # belső vonalak (rács)
+        ("GRID", (0, 0), (-1, -1), 0.5, colors.black),
+
+        # igazítás és paddings
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("LINEBELOW", (0, 0), (-1, -1), 0.5, colors.black),
-        ("LEFTPADDING", (0, 0), (-1, -1), 4),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 4),
-        ("TOPPADDING", (0, 0), (-1, -1), 3),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 3)
+        ("LEFTPADDING", (0, 0), (-1, -1), 6),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+        ("TOPPADDING", (0, 0), (-1, -1), 4),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
     ]))
 
     # automatikus oldaltörés kezelés
