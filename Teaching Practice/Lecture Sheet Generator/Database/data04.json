@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2025.12.01.",
+  "oralatogatis_sorszam": "04",
 
   "kapcsolodas": "Az óra az előző óra általános ismétlő szerkezetek ismeretére épít, konkrétan a FOR ciklus részletes tanulmányozására fókuszál pszeudokodban. Ez közvetlenül kapcsolódik a következő órák C++-os FOR ciklus megvalósításához, és alapvető fontosságú a tömbök, listák feldolgozásának megértéséhez. Kapcsolódik a matematika számsorozatok témaköréhez és az algoritmikus gondolkodás fejlesztéséhez.",
 

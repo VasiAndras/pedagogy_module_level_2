@@ -5,7 +5,8 @@
     { "id": "intezmeny", "label": "Intézmény neve:" },
     { "id": "tanar_neve", "label": "Tanár neve:" },
     { "id": "megfigyelo", "label": "Megfigyelő neve:" },
-    { "id": "osztaly_idopont", "label": "Osztály / időpont:" }
+    { "id": "osztaly_idopont", "label": "Osztály / időpont:" },
+    { "id": "oralatogatis_sorszam", "label": "Óralátogatási sorszám:" }
   ],
 
   "sections": [

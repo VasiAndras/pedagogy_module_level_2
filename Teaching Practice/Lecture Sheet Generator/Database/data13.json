@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2026.02.16.",
+  "oralatogatis_sorszam": "13",
 
   "kapcsolodas": "Az óra az előző programozási alapokra (ciklusok, feltételek, algoritmikus gondolkodás) épít, és egy klasszikus matematikai probléma - a prímszámvizsgálat - programozási megvalósítását mutatja be. Ez a témakör összekapcsolja a matematika számelméleti ismereteit a hatékony programozási technikákkal. Közvetlenül kapcsolódik a korábbi Fibonacci-sorozat órához, továbbfejlesztve a diákok algoritmikus gondolkodását. Alapot jelent a későbbi komplexebb algoritmusok (keresőalgoritmusok, optimalizálási technikák) megértéséhez.",
 

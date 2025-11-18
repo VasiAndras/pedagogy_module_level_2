@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2025.12.22.",
+  "oralatogatis_sorszam": "07",
 
   "kapcsolodas": "Az óra közvetlenül épít az előző óra elméleti ismereteire a feltételes ciklusokról, konkrétan a WHILE ciklus C++ nyelvi megvalósítására fókuszál. A diákok már jól ismerik a WHILE ciklus elméleti működését és az előltesztelő ciklusok jellegzetességeit pszeudokodban, most ezek gyakorlati alkalmazását sajátítják el C++ nyelven. Ez alapvető fontosságú a felhasználói input kezeléséhez, fájlolvasáshoz és olyan algoritmusokhoz, ahol a iterációk száma előre nem ismert.",
 

@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2026.01.12.",
+  "oralatogatis_sorszam": "08",
 
   "kapcsolodas": "Az óra az előző óra WHILE ciklus ismereteire épít, és bemutatja a DO-WHILE ciklus C++ nyelvi megvalósítását. A diákok már jól ismerik az előltesztelő ciklusok működését, most a hátultesztelő ciklusok gyakorlati alkalmazását sajátítják el. Ez kiegészíti a diákok ciklusismeretét, és lehetővé teszi számukra, hogy megfelelő ciklustípust válasszanak olyan helyzetekben, ahol a ciklustest legalább egyszer mindenképp végre kell hajtani. Kapcsolódik a felhasználói interfész programozásához és az input validációhoz.",
 

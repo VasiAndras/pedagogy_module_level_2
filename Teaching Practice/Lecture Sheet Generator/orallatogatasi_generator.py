@@ -8,28 +8,61 @@ from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.units import mm
+from reportlab.platypus import Paragraph
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.enums import TA_JUSTIFY
+from reportlab.platypus import Table, TableStyle
+from reportlab.lib import colors
+
 
 # ---------------------------------------------------------
-# FONT – magyar ékezetekhez
+# FONT – Times New Roman + ékezetek
 # ---------------------------------------------------------
-pdfmetrics.registerFont(TTFont("MagyarFont", "DejaVuSans.ttf"))
-FONT = "MagyarFont"
+pdfmetrics.registerFont(TTFont("TimesNewRoman", "C:/Windows/Fonts/TIMES.TTF"))
+FONT = "TimesNewRoman"
 
 PAGE_W, PAGE_H = A4
 
 
 # ---------------------------------------------------------
-# SORSZÁM
+# JUSTIFIED paragraph rajzolása
+# ---------------------------------------------------------
+def draw_justified(c, text, x, y, max_width):
+    styles = getSampleStyleSheet()
+    style = ParagraphStyle(
+        'Justify',
+        parent=styles['Normal'],
+        fontName=FONT,
+        fontSize=12,
+        leading=20,
+        alignment=TA_JUSTIFY
+    )
+
+    para = Paragraph(text, style)
+    w, h = para.wrap(max_width, PAGE_H)
+
+    if y - h < 25 * mm:
+        draw_page_footer(c)
+        c.showPage()
+        c.setFont(FONT, 12)
+        y = PAGE_H - 30 * mm
+
+    para.drawOn(c, x, y - h)
+    return y - h - 5
+
+
+# ---------------------------------------------------------
+# SORSZÁM – oldalszám a láblécben
 # ---------------------------------------------------------
 def draw_page_footer(c):
     page_num = c.getPageNumber()
-    text = f"Oldal {page_num}"
+    text = f"{page_num}"
     c.setFont(FONT, 10)
     c.drawCentredString(PAGE_W / 2, 10 * mm, text)
 
 
 # ---------------------------------------------------------
-# SORTÖRDELÉS
+# SORTÖRDELÉS – balra igazított szöveghez
 # ---------------------------------------------------------
 def wrap_text(text, max_width, c, font, size):
     if not text:
@@ -81,8 +114,10 @@ def generate_single_pdf(data_file, template):
     with open(data_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    output_name = f"Generated/oralatogatasi_lap_{os.path.splitext(os.path.basename(data_file))[0]}.pdf"
-    c = canvas.Canvas(output_name, pagesize=A4)
+    os.makedirs("Generated", exist_ok=True)
+    out_name = f"Generated/oralatogatasi_lap_{os.path.splitext(os.path.basename(data_file))[0]}.pdf"
+
+    c = canvas.Canvas(out_name, pagesize=A4)
     c.setFont(FONT, 12)
 
     margin_left = 25 * mm
@@ -93,37 +128,63 @@ def generate_single_pdf(data_file, template):
     # -------- TITLE --------
     if "title" in template:
         c.setFont(FONT, 16)
-        for line in wrap_text(template["title"], max_width, c, FONT, 16):
-            c.drawCentredString(PAGE_W / 2, y, line)
+        for line in wrap_text(template["title"], max_width, c, FONT, 20):
+            c.drawString(margin_left, y, line)
             y -= 20
         c.setFont(FONT, 12)
 
-    # -------- FIELDS --------
+# -------- FIELDS TABLE --------
+    table_data = []
+
     for f in template.get("fields", []):
         field_id = f.get("id", None)
         label = f.get("label", "")
-        lines = f.get("lines", 1)
-
-        for line in wrap_text(label, max_width, c, FONT, 12):
-            c.drawString(margin_left, y, line)
-            y -= 14
-            y = new_page_if_needed(c, y)
-
         value = data.get(field_id, "") if field_id else ""
 
-        if value:
-            for line in wrap_text(value, max_width, c, FONT, 12):
-                c.drawString(margin_left, y, line)
-                y -= 14
-                y = new_page_if_needed(c, y)
-        else:
-            for _ in range(lines):
-                draw_dotted_line(c, margin_left, y)
-                y -= line_height
-                y = new_page_if_needed(c, y)
+        # ha üres → pontozott vonal
+        if not value.strip():
+            value = "................................................"
 
-        y -= 10
-        y = new_page_if_needed(c, y)
+        table_data.append([
+            Paragraph(f"<b>{label}</b>", ParagraphStyle(
+                name='LabelStyle',
+                fontName=FONT,
+                fontSize=12,
+                leading=14
+            )),
+            Paragraph(value, ParagraphStyle(
+                name='ValueStyle',
+                fontName=FONT,
+                fontSize=12,
+                leading=14
+            ))
+        ])
+
+    # táblázat készítése
+    table = Table(table_data, colWidths=[60 * mm, 100 * mm])
+
+    # táblázat stílus
+    table.setStyle(TableStyle([
+        ("FONT", (0, 0), (-1, -1), FONT, 12),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("LINEBELOW", (0, 0), (-1, -1), 0.5, colors.black),
+        ("LEFTPADDING", (0, 0), (-1, -1), 4),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4),
+        ("TOPPADDING", (0, 0), (-1, -1), 3),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 3)
+    ]))
+
+    # automatikus oldaltörés kezelés
+    w, h = table.wrapOn(c, 0, 0)
+
+    if y - h < 25 * mm:
+        draw_page_footer(c)
+        c.showPage()
+        y = PAGE_H - 30 * mm
+        c.setFont(FONT, 12)
+
+    table.drawOn(c, margin_left, y - h)
+    y -= h + 20
 
     # -------- SECTIONS --------
     for section in template.get("sections", []):
@@ -139,18 +200,17 @@ def generate_single_pdf(data_file, template):
             q_text = "• " + q.get("text", "")
             lines = q.get("lines", 1)
 
+            # kérdés balra igazítva
             for line in wrap_text(q_text, max_width, c, FONT, 12):
                 c.drawString(margin_left, y, line)
                 y -= 14
                 y = new_page_if_needed(c, y)
 
+            # válasz justified
             value = data.get(q_id, "") if q_id else ""
 
-            if value:
-                for line in wrap_text(value, max_width, c, FONT, 12):
-                    c.drawString(margin_left, y, line)
-                    y -= 14
-                    y = new_page_if_needed(c, y)
+            if value.strip():
+                y = draw_justified(c, value, margin_left, y, max_width)
             else:
                 for _ in range(lines):
                     draw_dotted_line(c, margin_left, y)
@@ -166,14 +226,13 @@ def generate_single_pdf(data_file, template):
     draw_page_footer(c)
     c.save()
 
-    print(f"✔ PDF elkészült: {output_name}")
+    print(f"✔ PDF elkészült: {out_name}")
 
 
 # ---------------------------------------------------------
 # MAIN – több data.json → több PDF
 # ---------------------------------------------------------
 if __name__ == "__main__":
-    # Itt add meg a data fájlok listáját
     files = [
         "Database/data01.json",
         "Database/data02.json",
@@ -189,14 +248,12 @@ if __name__ == "__main__":
         "Database/data12.json",
         "Database/data13.json",
         "Database/data14.json",
-        "Database/data15.json",
+        "Database/data15.json"
     ]
 
-    # template betöltése
     with open("orallatogatasi_template.json", "r", encoding="utf-8") as f:
         template = json.load(f)
 
-    # mindegyikre generálunk egy külön PDF-et
     for f in files:
         if os.path.isfile(f):
             generate_single_pdf(f, template)

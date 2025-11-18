@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2025.12.08.",
+  "oralatogatis_sorszam": "05",
 
   "kapcsolodas": "Az óra közvetlenül épít az előző óra pszeudokodos FOR ciklus ismeretére. A diákok már jól ismerik a FOR ciklus logikai szerkezetét és működését pszeudokodban, most ennek C++ nyelvi megvalósítását sajátítják el. Ez alapvető fontosságú a későbbi tömbök feldolgozása, algoritmusok implementálása és komplex programok írása számára. Kapcsolódik a matematika iteratív folyamatok témaköréhez.",
 

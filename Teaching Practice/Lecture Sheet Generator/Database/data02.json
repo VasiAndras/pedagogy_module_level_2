@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2025.11.17.",
+  "oralatogatis_sorszam": "02",
 
   "kapcsolodas": "Az óra közvetlenül épül az előző óra pszeudokodos IF szerkezet ismeretére. A diákok már ismerik a feltételes elágazás logikáját, most ennek C++ nyelvi megvalósítását gyakorolják. A témakör alapot jelent a későbbi komplexebb programozási struktúrák (ciklusok, függvények) megértéséhez, és szorosan kapcsolódik a digitális kultúra tantárgy gyakorlati alkalmazásaihoz.",
 

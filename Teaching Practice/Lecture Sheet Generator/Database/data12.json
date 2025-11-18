@@ -1,11 +1,10 @@
 {
-  "intezmeny": "Elektromaros Technológiai Líceum",
+  "intezmeny": "Elektromaros Technológiai Líceum - Marosvásárhely",
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
-  "intezmeny_telefon": "+36 1 234 5678",
-  "intezmeny_azonosito": "KL-2025-871",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
   "osztaly_idopont": "12. osztály - 2026.02.09.",
+  "oralatogatis_sorszam": "12",
 
   "kapcsolodas": "Az óra az előző órák ciklusismereteire és programozási alapjaira épít, egy klasszikus matematikai sorozat - a Fibonacci-sorozat - programozási megvalósításán keresztül. Ez a témakör összekapcsolja a matematikát a programozással, és kiváló példát mutat a ciklusok alkalmazására valós problémák megoldásában. Kapcsolódik a matematika sorozatok témaköréhez, az algoritmikus gondolkodás fejlesztéséhez, és alapot jelent a későbbi rekurzív algoritmusok megértéséhez.",
 
