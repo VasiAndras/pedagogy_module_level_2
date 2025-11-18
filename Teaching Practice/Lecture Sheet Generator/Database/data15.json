@@ -3,7 +3,8 @@
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
-  "osztaly_idopont": "12. osztály - 2025.11.10.",
+  "osztaly_idopont": "12. osztály - 2025.11.13.",
+  "tantargy": "Automaták programozása",
   "oralatogatis_sorszam": "15",
 
   "kapcsolodas": "Az óra az előző órák véletlenszám-generálás és ciklusismereteire épít, egy valósághű programozási feladat - lottójáték szimuláció - megvalósításán keresztül. Ez a témakör összekapcsolja a korábbi ismereteket (FOR ciklus, véletlenszám-generálás, tömbkezelés) egy gyakorlati, mindennapi életből vett példában. Közvetlenül kapcsolódik a valószínűségszámítás matematikai fogalmaihoz és az algoritmikus gondolkodás fejlesztéséhez.",

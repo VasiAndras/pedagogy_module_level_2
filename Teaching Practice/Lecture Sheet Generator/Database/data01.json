@@ -3,7 +3,8 @@
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
-  "osztaly_idopont": "12. osztály - 2025.11.10.",
+  "osztaly_idopont": "12. osztály - 2025.10.20.",
+  "tantargy": "Automaták programozása",
   "oralatogatis_sorszam": "01",
 
   "kapcsolodas": "Az óra az IF utasítás alapvető ismeretére épít, amelyet az előző órán tanultak meg. A pszeudokodban való feltételes elágazás a programozási alapok tantárgy következő témaköreinek (ciklusok, függvények) megértéséhez szükséges alapvető ismeret. Kapcsolódik a matematika tantárgy logikai kifejezéseihez és a digitális kultúra tantárgy algoritmikus gondolkodásához.",

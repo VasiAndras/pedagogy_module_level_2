@@ -6,6 +6,7 @@
     { "id": "tanar_neve", "label": "Tanár neve:" },
     { "id": "megfigyelo", "label": "Megfigyelő neve:" },
     { "id": "osztaly_idopont", "label": "Osztály / időpont:" },
+    { "id": "tantargy", "label": "Tantárgy:" },
     { "id": "oralatogatis_sorszam", "label": "Óralátogatási sorszám:" }
   ],
 

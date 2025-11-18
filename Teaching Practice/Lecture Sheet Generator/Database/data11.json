@@ -3,7 +3,8 @@
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
-  "osztaly_idopont": "12. osztály - 2026.02.02.",
+  "osztaly_idopont": "12. osztály - 2025.11.10.",
+  "tantargy": "Automaták programozása",
   "oralatogatis_sorszam": "11",
 
   "kapcsolodas": "Az óra az előző programozási alapokra épít, és bevezeti a véletlen számok generálásának fogalmát C++ nyelven. Ez a témakör kiterjeszti a diákok programozási ismereteit, és alapvető fontosságú a játékfejlesztés, szimulációk, tesztelés területén. Kapcsolódik a matematika valószínűségszámítás témaköréhez és a statisztikai alapfogalmakhoz. A véletlen számok használata nélkülözhetetlen a későbbi komplexebb programok (játékok, modellek) fejlesztéséhez.",

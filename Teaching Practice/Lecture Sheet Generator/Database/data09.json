@@ -3,7 +3,8 @@
   "intezmeny_cim": "Strada Livezeni 5, Marosvásárhely",
   "tanar_neve": "Veress Éva",
   "megfigyelo": "Vasi András",
-  "osztaly_idopont": "12. osztály - 2026.01.19.",
+  "osztaly_idopont": "12. osztály - 2025.11.06.",
+  "tantargy": "Automaták programozása",
   "oralatogatis_sorszam": "09",
 
   "kapcsolodas": "Az óra az előző órák összes ciklustípusának (FOR, WHILE, DO-WHILE) gyakorlati ismereteire épít, és ezek elméleti szintű összegzését, összehasonlítását valósítja meg. Ez a témakör zárja le a ciklusok alapvető ismeretanyagát, és alapot jelent a későbbi komplexebb programozási koncepciók (tömbkezelés, algoritmusok, függvények) megértéséhez. Kapcsolódik a matematikai logikához és az algoritmikus gondolkodás rendszerezéséhez.",
